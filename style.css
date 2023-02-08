@@ -1,0 +1,116 @@
+body {
+  background-color: #2f3136;
+  color: #c0c5ce;
+  font-family: sans-serif;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+header h1 {
+  text-align: center;
+  font-size: 36px;
+  margin: 50px 0;
+  animation: fadeIn 1s ease-in-out;
+}
+
+section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #3b3f48;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #c0c5ce;
+  animation: fadeIn 1s ease-in-out;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+section p, section ul {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+section ul li {
+  margin-left: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+section h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 18px;
+  color: #ddd;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+}
+
+section li {
+  font-size: 18px;
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+#projects li:before {
+  content: "✔️";
+  color: #00bfff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+a {
+  color: #00bfff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  section h2 {
+    font-size: 28px;
+  }
+
+  section p {
+    font-size: 16px;
+  }
+
+  section li {
+    font-size: 16px;
+  }
+}
