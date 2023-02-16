@@ -1,0 +1,42 @@
+/* Set the background color of the page to a dark gray */
+body {
+    background-color: #262626;
+  }
+  
+  /* Style the staff member boxes */
+  .staff-member {
+    background-color: #333333;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  /* Set the font color of the staff member details to a light gray */
+  .staff-member__position,
+  .staff-member__name,
+  .staff-member__date {
+    color: #bbbbbb;
+  }
+  
+  /* Style the position detail */
+  .staff-member__position {
+    font-weight: bold;
+  }
+  
+  /* Style the name detail */
+  .staff-member__name {
+    font-style: italic;
+  }
+  
+  /* Style the date detail */
+  .staff-member__date {
+    font-size: 0.8em;
+  }
+  
+  /* Set the font color of the section headers to a light gray */
+  h2 {
+    color: #bbbbbb;
+  }
+  
